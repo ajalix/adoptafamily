@@ -18,7 +18,7 @@ The current process involves several manual steps:
 ### Proposed Process Flow
 
 ```mermaid
-graph TD
+graph LR
     A[Intake] --> B[Processing and Storage]
     B --> C[Matching]
     C --> D[Communication and Logistics]
@@ -28,7 +28,7 @@ graph TD
 ### Detailed Process Flow
 
 ```mermaid
-graph TD
+graph LR
     A[Intake] -->|Collect wish lists and demographic information| B[Processing and Storage]
     B -->|Enter data into spreadsheets| C[Matching]
     C -->|Match families with sponsors| D[Communication and Logistics]
