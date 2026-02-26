@@ -29,10 +29,10 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Intake] -->|Collect wish lists and demographic information| B[Processing and Storage]
-    B -->|Enter data into spreadsheets| C[Matching]
-    C -->|Match families with sponsors| D[Communication and Logistics]
-    D -->|Send standardized emails with wish lists| E[Distribution]
+    A[Intake - Christie/Catholic Charities] -->|Collect wish lists and demographic information| B[Processing and Storage - Christie/Catholic Charities]
+    B -->|Enter data into spreadsheets and save individual wish lists| C[Matching - Gene/Isabel/Adopt A Family]
+    C -->|Match families with sponsors| D[Communication and Logistics - Gene/Isabel/Adopt A Family]
+    D -->|Send standardized emails with wish lists| E[Distribution - Gene/Isabel/Adopt A Family]
     E -->|Distribute gifts to families| F[End]
 ```
 
